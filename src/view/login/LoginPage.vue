@@ -119,8 +119,9 @@
         setTimeout(() => {
           this._dismissLoading();
           this.saveUserInfo();
-          this._showToast('登陆成功！');
-          this._routerBack();
+          this._showConfirm('登陆成功, 去设置手势密码？', () => {
+            this._routeReplace('GestureCreate');
+          }, this._routerBack);
         }, 1000);
       },
       //保存用户信息

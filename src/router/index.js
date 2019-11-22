@@ -17,6 +17,7 @@ const MessagePage = r => require.ensure([], () => r(require('../view/mine/Messag
 const MessageDetail = r => require.ensure([], () => r(require('../view/mine/MessageDetail')), 'MessageDetail');
 const ProductDetail = r => require.ensure([], () => r(require('../view/product/ProductDetail')), 'ProductDetail');
 const LoginPage = r => require.ensure([], () => r(require('../view/login/LoginPage')), 'LoginPage');
+const GestureCreate = r => require.ensure([], () => r(require('../view/login/GestureCreate')), 'GestureCreate');
 
 const routes = [
   {path: '*', redirect: '/main'},
@@ -30,6 +31,7 @@ const routes = [
     ], meta: {keepAlive: true}
   },
   {name: 'LoginPage', component: LoginPage},
+  {name: 'GestureCreate', component: GestureCreate},
   {name: 'SettingsPage', component: SettingsPage},
   {name: 'IFrameWebPage', component: IFrameWebPage},
   {name: 'TestCasePage', component: TestCasePage},

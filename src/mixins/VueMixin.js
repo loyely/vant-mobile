@@ -1,4 +1,4 @@
-import {Toast} from 'vant';
+import {Toast, Dialog} from 'vant';
 import {mapState} from 'vuex';
 
 export default {
@@ -7,6 +7,19 @@ export default {
   },
 
   methods: {
+    _showAlert(msg, confirm) {
+      Dialog.alert({
+        message: msg,
+      }).then(confirm)
+    },
+
+    _showConfirm(msg, confirm, cancel) {
+      Dialog.confirm({
+        message: msg
+      }).then(confirm)
+        .catch(cancel);
+    },
+
     _isLogin() {
       return (this.userInfo != null && this.userInfo.userName);
     },

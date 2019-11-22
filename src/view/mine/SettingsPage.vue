@@ -10,6 +10,8 @@
                   @click="onLangClick" is-link>
         </van-cell>
         <van-cell title="Vant文档" is-link size="large" @click="onVantDocClick"></van-cell>
+        <van-cell title="手势密码设置" icon="warning-o" size="large" @click="_routePush('GestureCreate')" is-link>
+        </van-cell>
       </van-cell-group>
     </div>
     <!--语言弹窗-->

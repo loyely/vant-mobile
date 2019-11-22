@@ -120,6 +120,7 @@
     width: 100%;
     border-radius: 0;
     font-size: 20px;
+    height: 46px;
     .btn-left {
       font-size: 14px;
     }

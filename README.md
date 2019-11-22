@@ -1,5 +1,6 @@
 # vant-finance-mobile
-一个基于 [Vant](https://youzan.github.io/vant/) 的UI Demo，主要是为了学习和记录基于 Vue/Vant 开发移动设备单页应用的相关知识。
+一个基于 [Vant](https://youzan.github.io/vant/) 的UI Demo，模拟一个简单的理财产品页面
+主要是为了学习和记录基于 Vue/Vant 开发移动设备单页应用的相关知识。
 
 ### 详情
 
@@ -15,6 +16,10 @@
  ![image](https://github.com/huzongyao/vant-finance-mobile/blob/master/static/img/mine/project_page_qr.png?raw=true)
 
 * Wiki: https://github.com/huzongyao/vant-finance-mobile/wiki
+
+#### 功能点
+* 手势密码设置，校验
+* 多语言适配(设置)
 
 #### 涉及类库
 记录和学习一些使用Vue来快速开发移动端HTML5页面的知识，主要包含：
