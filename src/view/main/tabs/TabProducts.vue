@@ -3,7 +3,7 @@
     <div class="top-fixed">
       <van-nav-bar :title="$t('tab_products')" fixed :z-index="10"></van-nav-bar>
       <div class="nav-con navbar-con">
-        <van-tabs v-model="activeSort" class="sort-all" sticky @change="onTabChange" line-width="33%">
+        <van-tabs v-model="activeSort" class="sort-all" sticky @change="onTabChange" line-width="33%" type="card">
           <van-tab :title="it_so.title" v-for="(it_so, idx) in sortItems" :key="idx">
             <div class="prod-item click-box" v-for="(it_po,idx_p) in getProductList(idx)"
                  :key="idx_p" @click="onProductClick(it_po)">

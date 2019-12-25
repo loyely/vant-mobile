@@ -13,9 +13,9 @@
             <div class="commu-right">2个活动奖励</div>
           </div>
           <div class="commu-mid">
-            <div class="commu-title">基金专题研报：政策发力市场持续 民办教育正当时</div>
+            <div class="commu-title">外交部：台湾同胞可在中国驻外使领馆寻求保护协助</div>
             <div class="light-txt commu-txt">
-              综合市场规模、增长速度、市场空间和企业的盈利能力等因素，职业教育和幼儿教育将会是最值得投资的板块，两者不仅具有相对较高的...
+              外交部领保中心常务副主任杨舒介绍了“26条措施”的第14条，台湾同胞可在中国驻外使领馆寻求领事保护与协助的途径...
             </div>
           </div>
           <van-button type="danger" round class="commu-btn" @click="onCommuClick">进入社区</van-button>
@@ -64,7 +64,6 @@
     background-size: 100% 100%;
     padding: 6px 16px 20px 16px;
     .commu-mid {
-      width: 100%;
       padding: 10px;
       text-align: left;
       .commu-title {
